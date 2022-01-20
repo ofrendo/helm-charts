@@ -1,4 +1,3 @@
-{{- define "tempest-base.extra_options" }}
 [DEFAULT]
 debug = True
 use_stderr = True
@@ -53,7 +52,7 @@ endpoint_type = internal
 shared_physical_network= {{ .Values.tempest_common.shared_physical_network | default true }}
 
 [network-feature-enabled]
-ipv6 = False
+ipv6 = false
 
 [baremetal]
 min_microversion = 1.46
@@ -116,10 +115,19 @@ max_microversion = latest
 vendor_name = VMware
 storage_protocol = vmdk
 disk_format = vmdk
-volume_size = 10
 
 [volume-feature-enabled]
 backup = true
+
+[load_balancer]
+admin_role = admin
+octavia_svc_username = admin
+member_role = admin
+observer_role = admin
+global_observer_role = admin
+provider = f5
+RBAC_test_type = none
+test_with_ipv6 = False
 
 [service_available]
 manila = True
@@ -133,5 +141,3 @@ ironic = True
 barbican = True
 keystone = True
 octavia = True
-
-{{ end }}
