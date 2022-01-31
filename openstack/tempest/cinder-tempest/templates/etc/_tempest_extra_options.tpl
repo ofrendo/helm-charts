@@ -115,6 +115,7 @@ max_microversion = latest
 vendor_name = VMware
 storage_protocol = vmdk
 disk_format = vmdk
+volume_size = 1
 
 [volume-feature-enabled]
 backup = true
