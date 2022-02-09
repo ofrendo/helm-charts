@@ -19,7 +19,7 @@ dependencies:
   version: 0.2.8
 - name: utils
   repository: https://charts.eu-de-2.cloud.sap
-  version: 0.3.0
+  version: 0.3.3
 - name: mariadb
   repository: https://charts.eu-de-2.cloud.sap
   version: 0.3.33
@@ -29,5 +29,5 @@ dependencies:
 - name: region_check
   repository: https://charts.eu-de-2.cloud.sap
   version: 0.1.2
-digest: sha256:efe7c21c23eaaaee96435c627092e08904e76699107081f09d4b9219ed0dd36e
-generated: "2022-01-25T16:45:15.074241+01:00"
+digest: sha256:928886042739f2277cfe529d19efcdb8c71b5b17523a0f4ed06fb5717799c514
+generated: "2022-02-09T16:18:51.394035+01:00"
