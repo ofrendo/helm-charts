@@ -130,6 +130,7 @@ RBAC_test_type = none
 test_with_ipv6 = False
 test_network_override = 430991b3-da0d-41cb-ac54-d1d532841725
 test_subnet_override = ac736737-1969-4e2c-9f6d-81b8b5278dd7
+disable_boot_network = True
 
 [service_available]
 manila = True
