@@ -51,7 +51,6 @@ project_network_cidr = 10.199.0.0/16
 public_network_id = {{ .Values.tempest_common.public_network_id }}
 endpoint_type = internal
 shared_physical_network= {{ .Values.tempest_common.shared_physical_network | default true }}
-floating_network_name = FloatingIP-sap-monsoon3-01-03
 
 [network-feature-enabled]
 ipv6 = False
