@@ -129,7 +129,7 @@ provider = f5
 RBAC_test_type = none
 test_with_ipv6 = False
 test_network_override = FloatingIP-external-monsoon3-01
-test_subnet_override = FloatingIP-sap-monsoon3-01-03
+test_subnet_override = ac736737-1969-4e2c-9f6d-81b8b5278dd7
 
 [service_available]
 manila = True
