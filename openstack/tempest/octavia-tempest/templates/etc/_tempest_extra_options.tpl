@@ -128,7 +128,7 @@ global_observer_role = admin
 provider = f5
 RBAC_test_type = none
 test_with_ipv6 = False
-test_network_override = FloatingIP-external-monsoon3-01
+test_network_override = 430991b3-da0d-41cb-ac54-d1d532841725
 test_subnet_override = ac736737-1969-4e2c-9f6d-81b8b5278dd7
 
 [service_available]
